@@ -1,5 +1,5 @@
 # Google Livros
-##Backend
+## Backend
 Rest Api que utiliza Spring Boot e java 11.
 O projeto frontend desta Api está em: https://github.com/danielps99/googlebooks_front_angular 
 
@@ -12,13 +12,13 @@ O projeto frontend desta Api está em: https://github.com/danielps99/googlebooks
 5. Exibir alerta de confirmaçao de exclusão
 
 ### Api Endpoint
-#####Pesquisar livros
+#### Pesquisar livros
 - http://localhost:8080/api/livro/listar?pesquisa=valorpesquisa&pagina=0&maxResultado=10
-#####Adicionar livro aos favoritos
+#### Adicionar livro aos favoritos
 - http://localhost:8080/api/livro-favorito/criar
-#####Pesquisar livro favoritos
+#### Pesquisar livro favoritos
 - http://localhost:8080/api/livro-favorito/listar?pesquisa=valorpesquisa&pagina=0&maxResultado=10
-#####Remover livro dos favoritos
+#### Remover livro dos favoritos
 - http://localhost:8080/api/livro-favorito/deletar/790f1033-24a6-433a-9cbb-0a303062a66e
   
 ### Requisitos para executar a aplicação
@@ -26,10 +26,10 @@ O projeto frontend desta Api está em: https://github.com/danielps99/googlebooks
 - Apache Maven 3.6.3
 
 ## Como executar aplicação
-#####Baixar dependências da aplicação
+### Baixar dependências da aplicação
 1. No diretorio do Projeto digite:
     - mvn install
-#####Executar aplicação
+### Executar aplicação
 2. No diretorio do Projeto digite:
     - mvn spring-boot:run
 
